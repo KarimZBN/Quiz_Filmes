@@ -183,11 +183,11 @@ class QuizUI:
         for genero, _ in generos_ordenados:
             filmes_do_genero = [filme for filme in self.logic.filmes if genero in filme['genero']]
             random.shuffle(filmes_do_genero)
-            if genero == generos_ordenados[0][0]:  # Gênero mais compatível
+            if genero == generos_ordenados[0][0]:
                 filmes_recomendados.extend(filmes_do_genero[:3])
-            elif genero == generos_ordenados[1][0]:  # Segundo mais compatível
+            elif genero == generos_ordenados[1][0]:
                 filmes_recomendados.extend(filmes_do_genero[:2])
-            elif genero == generos_ordenados[2][0]:  # Terceiro mais compatível
+            elif genero == generos_ordenados[2][0]:
                 filmes_recomendados.extend(filmes_do_genero[:1])
 
         return filmes_recomendados
