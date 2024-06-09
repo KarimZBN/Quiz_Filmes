@@ -18,8 +18,8 @@ Este é um projeto de Quiz de Filmes desenvolvido em Python usando a biblioteca 
 
 1. Clone o repositório:
     ```
-    git clone https://github.com/seu-usuario/quiz-filmes.git
-    cd quiz-filmes
+    git clone https://github.com/seu-usuario/quiz_filmes.git
+    cd quiz_filmes
     ```
 
 2. Instale as bibliotecas necessárias:
@@ -32,7 +32,7 @@ Para executar o projeto, simplesmente execute o arquivo `quiz_ui.py`:
 ## Estrutura do Projeto
 
 ```
-quiz-filmes/
+quiz_filmes/
 ├── filmes.json
 ├── perguntas.json
 ├── quiz_logic.py
