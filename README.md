@@ -27,7 +27,9 @@ Este é um projeto de Quiz de Filmes desenvolvido em Python usando a biblioteca 
     pip install pillow
     ```
 ## Executando o Projeto
-Para executar o projeto, simplesmente execute o arquivo `quiz_ui.py`:
+Para executar o projeto, simplesmente execute o arquivo `run.sh`:
+ou
+Abra o arquivo `quiz_ui.py` em um editor de texto como o VSCode e execute-o.
 
 ## Estrutura do Projeto
 
@@ -36,7 +38,8 @@ quiz_filmes/
 ├── filmes.json
 ├── perguntas.json
 ├── quiz_logic.py
-└── quiz_ui.py
+├── quiz_ui.py
+├── run.sh
 └──path
      └──cartazes
 ```
@@ -44,6 +47,7 @@ quiz_filmes/
 - `perguntas.json`: Arquivo JSON contendo a lista de perguntas do quiz.
 - `quiz_logic.py`: Script Python contendo a lógica do quiz.
 - `quiz_ui.py`: Script Python contendo a interface gráfica do quiz.
+- `run.sh`: Script para executar o quiz.
 - `path\cartazes`: Pasta que armazena imagens de posters dos filmes.
 
 ## Arquivo de Perguntas (perguntas.json)
